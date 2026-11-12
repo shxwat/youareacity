@@ -4,7 +4,9 @@
 
 Live: **[youareacity.xyz](https://youareacity.xyz)**
 
-![The city flight and reveal](docs/demo.gif)
+| City | Particles |
+| :---: | :---: |
+| <img src="docs/demo.gif" width="390" alt="City fly-through revealing the profile picture"> | <img src="docs/particles.gif" width="390" alt="Particles assembling into the profile picture and morphing into the X handle"> |
 
 A small WebGL toy that rebuilds any profile picture as a 3D city, or as a cloud of particles, and lets you record the result as a clip to post. No build step, no backend, no tracking. Two HTML files.
 
@@ -72,7 +74,8 @@ The rubber-sheet effect is a damped spring on a single pull vector: the grabbed 
 index.html       City mode (markup, styles, shaders and logic)
 particles.html   Particles mode
 vercel.json      Clean URLs (/particles instead of /particles.html)
-docs/demo.gif    The preview at the top of this README
+docs/demo.gif       City preview
+docs/particles.gif  Particles preview
 ```
 
 ## Tech
